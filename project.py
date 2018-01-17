@@ -13,11 +13,16 @@ from multiprocessing import Queue, Pool
 from managers.path_manager import PathManager
 from managers.config_manager import ConfigManager
 from managers.component_manager import ComponentManager
+from managers.queue_manager import QueueManager
 from managers.comm_manager import CommManager
-from modules.video.video_parser import VideoParser
+from modules.video.video_parser import VideoParserProcess
 from modules.comm.msg import MsgFactory
 from modules.comm.msg_code_define import MsgCodeEnum
 from modules.comm.comm_recv_service import CommRecvService
+from modules.frame.frame_manager import FrameManager
+from modules.frame.frame_service import FrameService
+from modules.video.video_capture import VideoCaptureProcess
+from modules.video.video_parser import VideoParserProcess
 
 def _parse_args():
     parser = argparse.ArgumentParser()
@@ -46,8 +51,12 @@ def init_project():
     PathManager.init(root_path, ConfigManager.get_model_name())
     ComponentManager.init(PathManager.get_label_path(), ConfigManager.get_num_classes())
     CommManager.init()
+    QueueManager.init()
 
-    video_parser = VideoParser()
+    global frame_manager
+    frame_manager = FrameManager(ConfigManager.get_width(),
+                                 ConfigManager.get_height(),
+                                 QueueManager.get_msg_queue())
 
 def start_main():
     CommManager.start()
@@ -58,12 +67,27 @@ def start_main():
     send_service = CommManager.get_comm_send_service()
     send_service.send_msg(MsgFactory.get_msg(MsgCodeEnum.MSG_REGISTER_REQ).get_body())
 
+    global frame_manager
+    frame_service = FrameService(frame_manager, QueueManager.get_detected_frame_queue())
+    frame_service.start()
+
+    video_capture = VideoCaptureProcess(QueueManager.get_origin_frame_queue(),
+                        QueueManager.get_updated_frame_queue(),
+                        QueueManager.get_msg_queue())
+    video_capture.start()
+
+    video_parser = VideoParserProcess(QueueManager.get_origin_frame_queue(),
+                                      QueueManager.get_detected_frame_queue())
+    video_parser.start()
+
     while True:
         time.sleep(0.2)
 
 def clear_project():
     CommManager.stop()
 
+
+frame_manager = None
 if __name__ == '__main__':
     init_project()
     start_main()

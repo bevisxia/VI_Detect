@@ -5,45 +5,88 @@
 import threading
 
 from modules.frame.item import DetectItem
+from modules.gate.gate_status import Gate
+from modules.gate.gate_status import GateOperationEnum
+from managers.queue_manager import QueueManager
+from modules.video.process_msg import *
+from modules.comm.msg import *
 
 class FrameManager(object):
-    def __init__(self, width, height):
-        self.__frames = []
-        self.__frame_id = 0
+    def __init__(self, width, height, msg_queue):
+        self.__frames = {}
         self.__lock = threading.Lock()
         self.__width = width
         self.__height = height
         self.__detect_item = []
+        self.__operation_id = 0
+        self.__msg_queue = msg_queue
+        self.__gate = Gate.get_instance()
+        self.__gate.add_status_observer(GateOperationEnum.GATE_OPEN, self.__on_gate_open)
+        self.__gate.add_status_observer(GateOperationEnum.GATE_CLOSE, self.__on_gate_close)
 
     def add_frame(self, frame):
         with self.__lock:
-            frame.set_frame_id(self.__frame_id)
-            self.__frame_id += 1
-            self.__frames.append(frame)
+            operation_id = frame.get_operation_id()
+            frame_lst = self.__frames.get(operation_id, [])
+            self.__frames[operation_id] = self.__insert_frame(frame, frame_lst)
 
-    def __get_all_categories(self):
+    def __on_gate_open(self):
+        self.__operation_id += 1
+        self.__msg_queue.put(GateOpenMsg(self.__operation_id))
+
+    def __on_gate_close(self):
+        self.__msg_queue.put(GateCloseMsg)
+        threading._start_new_thread(self.__begin_parse, ('parse_frame', '111'))
+
+    def __begin_parse(self):
+        self.__parse_frame()
+        self.__send_result()
+
+    def __send_result(self):
+        msg = MsgFactory.get_msg(MsgCodeEnum.MSG_REPORT_RESULT_REQ)
+        msg.set_items(self.__detect_item)
+        msg.send()
+
+    def __insert_frame(self, insert_frame, frame_list):
+        for i in range(len(frame_list)-1, -1, -1):
+            cur_frame = frame_list[i]
+            if insert_frame.get_frame_id() < cur_frame.get_frame_id():
+                continue
+            else:
+                frame_list.insert(i+1, insert_frame)
+                break
+        else:
+            frame_list.insert(0, insert_frame)
+
+        return frame_list
+
+    def __get_all_categories(self, frames):
         categories = []
-        for f in self.__frames:
+        for f in frames:
             categories.extend(f.get_item_names())
         return list(set(categories))
 
     def __add_detect_item(self, item):
         self.__detect_item.append(item)
 
-    def get_detect_item(self):
+    def __get_detect_item(self):
         return self.__detect_item
 
     def print_item(self):
         for item in self.__detect_item:
             print "id: ", item.get_id(), " name: ", item.get_name()
 
-    def parse_frame(self):
-        for category in self.__get_all_categories():
+    def __parse_frame(self):
+        self.__detect_item = []
+        frame_keys = sorted(self.__frames.keys())
+        frames = self.__frames.pop(frame_keys[0]) if frame_keys else []
+
+        for category in self.__get_all_categories(frames):
             start_x = start_y = 0
             end_x = end_y = 0
             take_count = 0
             category_id = 0
-            for frame in self.__frames:
+            for frame in frames:
                 items = frame.get_items_by_name(category)
                 if category_id == 0:
                     category_id = 0

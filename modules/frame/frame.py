@@ -1,8 +1,15 @@
 
 class Frame(object):
-    def __init__(self, frame_id=None):
+    def __init__(self, operation_id= None, frame_id=None):
+        self.__operation_id = operation_id
         self.__frame_id = frame_id
         self.__items = []
+
+    def set_operation_id(self, id):
+        self.__operation_id = id
+
+    def get_operation_id(self):
+        return self.__operation_id
 
     def set_frame_id(self, id):
         self.__frame_id = id
