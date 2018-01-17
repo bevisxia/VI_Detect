@@ -1,0 +1,19 @@
+item {
+  id: 1
+  name: 'cocacola'
+}
+
+item {
+  id: 2
+  name: 'weiquan'
+}
+
+item {
+  id: 3
+  name: 'tongyi'
+}
+
+item {
+  id: 4
+  name: 'qingdaochunsheng'
+}
