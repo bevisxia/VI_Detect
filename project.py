@@ -23,6 +23,8 @@ from modules.frame.frame_manager import FrameManager
 from modules.frame.frame_service import FrameService
 from modules.video.video_capture import VideoCaptureProcess
 from modules.video.video_parser import VideoParserProcess
+from modules.video.video_show import VideoShowProcess
+import thread
 
 def _parse_args():
     parser = argparse.ArgumentParser()
@@ -51,7 +53,7 @@ def init_project():
     PathManager.init(root_path, ConfigManager.get_model_name())
     ComponentManager.init(PathManager.get_label_path(), ConfigManager.get_num_classes())
     CommManager.init()
-    QueueManager.init()
+    QueueManager.init(ConfigManager.get_queue_size())
 
     global frame_manager
     frame_manager = FrameManager(ConfigManager.get_width(),
@@ -67,21 +69,51 @@ def start_main():
     send_service = CommManager.get_comm_send_service()
     send_service.send_msg(MsgFactory.get_msg(MsgCodeEnum.MSG_REGISTER_REQ).get_body())
 
+    # start frame_manager service
     global frame_manager
     frame_service = FrameService(frame_manager, QueueManager.get_detected_frame_queue())
     frame_service.start()
 
+    # start video parser process pool
+    # video_parser = VideoParserProcess(QueueManager.get_origin_frame_queue(),
+    #                                   QueueManager.get_detected_frame_queue())
+    # video_parser.start()
+    video_parser = VideoParserProcess(QueueManager.get_origin_frame_queue(),
+                                      QueueManager.get_detected_frame_queue(),
+                                      QueueManager.get_updated_frame_queue())
+    video_parser.run()
+
+    # start video show thread
+    video_show = VideoShowProcess(QueueManager.get_updated_frame_queue())
+    video_show.start()
+
+    # start video capture
     video_capture = VideoCaptureProcess(QueueManager.get_origin_frame_queue(),
                         QueueManager.get_updated_frame_queue(),
                         QueueManager.get_msg_queue())
-    video_capture.start()
+    # video_capture.start()
+    video_capture.run()
 
-    video_parser = VideoParserProcess(QueueManager.get_origin_frame_queue(),
-                                      QueueManager.get_detected_frame_queue())
-    video_parser.start()
+    # detection_graph = tf.Graph()
+    # with detection_graph.as_default():
+    #     od_graph_def = tf.GraphDef()
+    #     with tf.gfile.GFile(PathManager.get_ckpt_path(), 'rb') as fid:
+    #         serialized_graph = fid.read()
+    #         od_graph_def.ParseFromString(serialized_graph)
+    #         tf.import_graph_def(od_graph_def, name='')
+    #
+    #     sess = tf.Session(graph=detection_graph)
 
-    while True:
-        time.sleep(0.2)
+    # while True:
+        # print "xxxxx1"
+        # operation_id, frame_id, origin_frame = QueueManager.get_origin_frame_queue().get()
+        #
+        # category_index = ComponentManager.get_category_index()
+        # updated_frame, score, classes, boxes = parse_origin_video_frame(origin_frame,
+        #                                                                 sess,
+        #                                                                 detection_graph,
+        #                                                                 category_index)
+        # time.sleep(0.2)
 
 def clear_project():
     CommManager.stop()

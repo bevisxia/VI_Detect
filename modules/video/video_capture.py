@@ -4,16 +4,24 @@
 # @File    : video_capture.py
 import time
 import cv2
-import multiprocessing
-import threading
 import thread
 from modules.video.process_msg import MsgCode
 from libs.utils.app_utils import FPS, WebcamVideoStream
 from managers.config_manager import ConfigManager
 
-class VideoCaptureProcess(multiprocessing.Process):
+# class VideoCaptureProcess(threading.Thread):
+#     def __init__(self, in_queue, out_queue, msg_queue):
+#         threading.Thread.__init__(self)
+#         self.__in_queue = in_queue
+
+# class VideoCaptureProcess(multiprocessing.Process):
+#     def __init__(self,in_queue, out_queue, msg_queue):
+#         super(VideoCaptureProcess, self).__init__()
+#         self.__in_queue = in_queue
+
+class VideoCaptureProcess(object):
     def __init__(self,in_queue, out_queue, msg_queue):
-        super(VideoCaptureProcess, self).__init__()
+        # super(VideoCaptureProcess, self).__init__()
         self.__in_queue = in_queue
         self.__out_queue = out_queue
         self.__msg_queue = msg_queue
@@ -31,10 +39,12 @@ class VideoCaptureProcess(multiprocessing.Process):
             self.__gate_open = True
             self.__frame_id = 0
             self.__operation_id = msg.get_args('operation_id')
+            print "VideoCaptureProcess recv msg: CODE_GATE_OPEN, operation_id: ", self.__operation_id
         elif code == MsgCode.CODE_GATE_CLOSE:
             self.__gate_open = False
+            print "VideoCaptureProcess recv msg: CODE_GATE_CLOSE"
 
-    def __recv_msg_from_main(self):
+    def __recv_msg_from_main(self, name, id):
         while True:
             msg = self.__msg_queue.get()
             self.__handle_pci_msg(msg)
@@ -43,7 +53,6 @@ class VideoCaptureProcess(multiprocessing.Process):
         while True:
             updated_frame = self.__out_queue.get()
             self.__insert_to_frame_lst(updated_frame)
-
 
     def __get_im_frame(self):
         pass
@@ -56,26 +65,24 @@ class VideoCaptureProcess(multiprocessing.Process):
                                           ConfigManager.get_width(),
                                           ConfigManager.get_height()).start()
         fps = FPS().start()
+        n = 0
+        t = time.time()
         while True:
             if self.__gate_open:
                 origin_frame = video_capture.read()
                 time.sleep(0.1)
-                # n += 1
+                n += 1
                 now = time.time()
-                # if now - t > 1:
-                #     print "read FPS: ", n, " time: ", now - t,
-                #     print " input_q: ", self.__input_q.qsize(), " output_q: ", self.__output_q.qsize(),
-                #     print " max_qsize: ", self.__queue_size
-                #     t = now
-                #     n = 0
+                if now - t > 1:
+                    print "read FPS: ", n, " time: ", now - t,
+                    print " __in_queue: ", self.__in_queue.qsize(), " output_q: ", self.__out_queue.qsize()
+                    t = now
+                    n = 0
 
                 frame_rgb = cv2.cvtColor(origin_frame, cv2.COLOR_BGR2RGB)
                 self.__in_queue.put((self.__operation_id, self.__frame_id, frame_rgb))
                 self.__frame_id += 1
             else:
-                time.sleep(0.1)
+                time.sleep(0.5)
 
                 # updated_frame = self.__get_im_frame()
-
-
-

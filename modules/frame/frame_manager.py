@@ -31,14 +31,17 @@ class FrameManager(object):
             self.__frames[operation_id] = self.__insert_frame(frame, frame_lst)
 
     def __on_gate_open(self):
-        self.__operation_id += 1
+        if self.__operation_id > 3:
+            self.__operation_id = 0
+        else:
+            self.__operation_id += 1
         self.__msg_queue.put(GateOpenMsg(self.__operation_id))
 
     def __on_gate_close(self):
-        self.__msg_queue.put(GateCloseMsg)
+        self.__msg_queue.put(GateCloseMsg(self.__operation_id))
         threading._start_new_thread(self.__begin_parse, ('parse_frame', '111'))
 
-    def __begin_parse(self):
+    def __begin_parse(self, name, id):
         self.__parse_frame()
         self.__send_result()
 
@@ -54,6 +57,7 @@ class FrameManager(object):
                 continue
             else:
                 frame_list.insert(i+1, insert_frame)
+                print "insert frame id: ", insert_frame.get_frame_id()
                 break
         else:
             frame_list.insert(0, insert_frame)
@@ -114,11 +118,11 @@ class FrameManager(object):
     def __handle_item(self, items, start_x, start_y, end_x, end_y):
         count = 0
 
-        #print "start (",
+        # print "start (",
         for item in items:
             x_mid = self.__width - item.get_x()
             y_mid = self.__height - item.get_y()
-            print item.get_name(), item.get_score(), x_mid, y_mid
+            # print item.get_name(), item.get_score(), x_mid, y_mid
             if (start_x == 0) & (start_y == 0):
                 start_x = x_mid
                 start_y = y_mid
@@ -131,6 +135,6 @@ class FrameManager(object):
                     count += 1
                 end_x = x_mid
                 end_y = y_mid
-        #print ", count: ", count
-        #print ") end"
+        # print ", count: ", count
+        # print ") end"
         return count, start_x, start_y, end_x, end_y

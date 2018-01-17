@@ -21,6 +21,7 @@ class GateOpenMsg(ProcessMsg):
         self._kargs = {'operation_id': operation_id}
 
 class GateCloseMsg(ProcessMsg):
-    def __init__(self):
+    def __init__(self, operation_id):
         super(GateCloseMsg, self).__init__()
         self._msg_code = MsgCode.CODE_GATE_CLOSE
+        self._kargs = {'operation_id': operation_id}

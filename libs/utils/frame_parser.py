@@ -5,7 +5,6 @@
 import numpy as np
 import tensorflow as tf
 from libs.object_detection.utils import visualization_utils as vis_util
-#from managers.component_manager import ComponentManager
 from managers.config_manager import ConfigManager
 from modules.frame.item import Item
 
@@ -33,7 +32,6 @@ def parse_origin_video_frame(origin_frame, session, detection_graph, category_in
         np.squeeze(boxes),
         np.squeeze(classes).astype(np.int32),
         np.squeeze(scores),
-        #ComponentManager.get_category_index(),
         category_index,
         use_normalized_coordinates=True,
         line_thickness=2)

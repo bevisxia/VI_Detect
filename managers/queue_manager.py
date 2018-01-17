@@ -12,10 +12,10 @@ class QueueManager(object):
     __msg_queue = None
 
     @classmethod
-    def init(cls):
-        cls.__origin_frame_queue = Queue()
-        cls.__updated_frame_queue = Queue()
-        cls.__detected_frame_queue = Queue()
+    def init(cls, q_size):
+        cls.__origin_frame_queue = Queue(q_size)
+        cls.__updated_frame_queue = Queue(q_size)
+        cls.__detected_frame_queue = Queue(q_size)
         cls.__msg_queue = Queue()
 
     @classmethod
