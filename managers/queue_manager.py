@@ -36,7 +36,7 @@ class QueueManager(object):
 
     @classmethod
     def is_round_over(cls):
-        return cls.__origin_frame_queue.empty() and cls.__updated_frame_queue.empty()
+        return cls.__origin_frame_queue.empty() and cls.__detected_frame_queue.empty()
 
 
 

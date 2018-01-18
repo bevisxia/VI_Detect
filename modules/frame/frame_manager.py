@@ -3,7 +3,7 @@
 # @Author  : zhangxinhe
 # @File    : frame_manager.py
 import threading
-
+import time
 from modules.frame.item import DetectItem
 from modules.gate.gate_status import Gate
 from modules.gate.gate_status import GateOperationEnum
@@ -42,8 +42,21 @@ class FrameManager(object):
         threading._start_new_thread(self.__begin_parse, ('parse_frame', '111'))
 
     def __begin_parse(self, name, id):
+        self.__wait_video_parse_over()
         self.__parse_frame()
         self.__send_result()
+
+    def __wait_video_parse_over(self):
+        i = 0
+        while i < 20:
+            if QueueManager.is_round_over():
+                break
+            else:
+                time.sleep(0.1)
+                i += 1
+
+        # to ensure the last frame is well handled
+        time.sleep(0.5)
 
     def __send_result(self):
         msg = MsgFactory.get_msg(MsgCodeEnum.MSG_REPORT_RESULT_REQ)
