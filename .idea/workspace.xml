@@ -2,445 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed38c20c-58a0-44fd-9159-410930aff8c1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/VI_Detect.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/g3doc/img/dogs_detections_output.jpg" afterPath="$PROJECT_DIR$/libs/object_detection/g3doc/img/dogs_detections_output.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/g3doc/img/example_cat.jpg" afterPath="$PROJECT_DIR$/libs/object_detection/g3doc/img/example_cat.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/g3doc/img/groupof_case_eval.png" afterPath="$PROJECT_DIR$/libs/object_detection/g3doc/img/groupof_case_eval.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/g3doc/img/kites_detections_output.jpg" afterPath="$PROJECT_DIR$/libs/object_detection/g3doc/img/kites_detections_output.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/g3doc/img/nongroupof_case_eval.png" afterPath="$PROJECT_DIR$/libs/object_detection/g3doc/img/nongroupof_case_eval.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/g3doc/img/oid_bus_72e19c28aac34ed8.jpg" afterPath="$PROJECT_DIR$/libs/object_detection/g3doc/img/oid_bus_72e19c28aac34ed8.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/g3doc/img/oid_monkey_3b4168c89cecbc5b.jpg" afterPath="$PROJECT_DIR$/libs/object_detection/g3doc/img/oid_monkey_3b4168c89cecbc5b.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/g3doc/img/oxford_pet.png" afterPath="$PROJECT_DIR$/libs/object_detection/g3doc/img/oxford_pet.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/g3doc/img/tensorboard.png" afterPath="$PROJECT_DIR$/libs/object_detection/g3doc/img/tensorboard.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/g3doc/img/tensorboard2.png" afterPath="$PROJECT_DIR$/libs/object_detection/g3doc/img/tensorboard2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/g3doc/img/tf-od-api-logo.png" afterPath="$PROJECT_DIR$/libs/object_detection/g3doc/img/tf-od-api-logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/savedModel/frozen_inference_graph.pb" afterPath="$PROJECT_DIR$/libs/object_detection/savedModel/frozen_inference_graph.pb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/savedModel/model.ckpt.data-00000-of-00001" afterPath="$PROJECT_DIR$/libs/object_detection/savedModel/model.ckpt.data-00000-of-00001" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/savedModel/model.ckpt.index" afterPath="$PROJECT_DIR$/libs/object_detection/savedModel/model.ckpt.index" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/savedModel/model.ckpt.meta" afterPath="$PROJECT_DIR$/libs/object_detection/savedModel/model.ckpt.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/savedModel/saved_model/saved_model.pb" afterPath="$PROJECT_DIR$/libs/object_detection/savedModel/saved_model/saved_model.pb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/test_images/image1.jpg" afterPath="$PROJECT_DIR$/libs/object_detection/test_images/image1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/test_images/image2.jpg" afterPath="$PROJECT_DIR$/libs/object_detection/test_images/image2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/WORKSPACE" afterPath="$PROJECT_DIR$/libs/slim/WORKSPACE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/mobilenet_v1.png" afterPath="$PROJECT_DIR$/libs/slim/nets/mobilenet_v1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/__init__.py" afterPath="$PROJECT_DIR$/libs/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/affinity-0.1.0/PKG-INFO" afterPath="$PROJECT_DIR$/libs/affinity-0.1.0/PKG-INFO" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/affinity-0.1.0/affinity.egg-info/PKG-INFO" afterPath="$PROJECT_DIR$/libs/affinity-0.1.0/affinity.egg-info/PKG-INFO" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/affinity-0.1.0/affinity.egg-info/SOURCES.txt" afterPath="$PROJECT_DIR$/libs/affinity-0.1.0/affinity.egg-info/SOURCES.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/affinity-0.1.0/affinity.egg-info/top_level.txt" afterPath="$PROJECT_DIR$/libs/affinity-0.1.0/affinity.egg-info/top_level.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/affinity-0.1.0/affinity/__init__.py" afterPath="$PROJECT_DIR$/libs/affinity-0.1.0/affinity/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/affinity-0.1.0/affinity/_affinity.c" afterPath="$PROJECT_DIR$/libs/affinity-0.1.0/affinity/_affinity.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/affinity-0.1.0/setup.py" afterPath="$PROJECT_DIR$/libs/affinity-0.1.0/setup.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/BUILD" afterPath="$PROJECT_DIR$/libs/object_detection/BUILD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/libs/object_detection/CONTRIBUTING.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/README.md" afterPath="$PROJECT_DIR$/libs/object_detection/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/__init__.py" afterPath="$PROJECT_DIR$/libs/object_detection/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/anchor_generators/BUILD" afterPath="$PROJECT_DIR$/libs/object_detection/anchor_generators/BUILD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/anchor_generators/__init__.py" afterPath="$PROJECT_DIR$/libs/object_detection/anchor_generators/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/anchor_generators/grid_anchor_generator.py" afterPath="$PROJECT_DIR$/libs/object_detection/anchor_generators/grid_anchor_generator.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/anchor_generators/grid_anchor_generator_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/anchor_generators/grid_anchor_generator_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/anchor_generators/multiple_grid_anchor_generator.py" afterPath="$PROJECT_DIR$/libs/object_detection/anchor_generators/multiple_grid_anchor_generator.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/anchor_generators/multiple_grid_anchor_generator_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/anchor_generators/multiple_grid_anchor_generator_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/box_coders/BUILD" afterPath="$PROJECT_DIR$/libs/object_detection/box_coders/BUILD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/box_coders/__init__.py" afterPath="$PROJECT_DIR$/libs/object_detection/box_coders/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/box_coders/faster_rcnn_box_coder.py" afterPath="$PROJECT_DIR$/libs/object_detection/box_coders/faster_rcnn_box_coder.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/box_coders/faster_rcnn_box_coder_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/box_coders/faster_rcnn_box_coder_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/box_coders/keypoint_box_coder.py" afterPath="$PROJECT_DIR$/libs/object_detection/box_coders/keypoint_box_coder.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/box_coders/keypoint_box_coder_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/box_coders/keypoint_box_coder_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/box_coders/mean_stddev_box_coder.py" afterPath="$PROJECT_DIR$/libs/object_detection/box_coders/mean_stddev_box_coder.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/box_coders/mean_stddev_box_coder_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/box_coders/mean_stddev_box_coder_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/box_coders/square_box_coder.py" afterPath="$PROJECT_DIR$/libs/object_detection/box_coders/square_box_coder.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/box_coders/square_box_coder_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/box_coders/square_box_coder_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/builders/BUILD" afterPath="$PROJECT_DIR$/libs/object_detection/builders/BUILD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/builders/__init__.py" afterPath="$PROJECT_DIR$/libs/object_detection/builders/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/builders/anchor_generator_builder.py" afterPath="$PROJECT_DIR$/libs/object_detection/builders/anchor_generator_builder.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/builders/anchor_generator_builder_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/builders/anchor_generator_builder_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/builders/box_coder_builder.py" afterPath="$PROJECT_DIR$/libs/object_detection/builders/box_coder_builder.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/builders/box_coder_builder_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/builders/box_coder_builder_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/builders/box_predictor_builder.py" afterPath="$PROJECT_DIR$/libs/object_detection/builders/box_predictor_builder.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/builders/box_predictor_builder_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/builders/box_predictor_builder_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/builders/hyperparams_builder.py" afterPath="$PROJECT_DIR$/libs/object_detection/builders/hyperparams_builder.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/builders/hyperparams_builder_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/builders/hyperparams_builder_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/builders/image_resizer_builder.py" afterPath="$PROJECT_DIR$/libs/object_detection/builders/image_resizer_builder.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/builders/image_resizer_builder_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/builders/image_resizer_builder_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/builders/input_reader_builder.py" afterPath="$PROJECT_DIR$/libs/object_detection/builders/input_reader_builder.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/builders/input_reader_builder_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/builders/input_reader_builder_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/builders/losses_builder.py" afterPath="$PROJECT_DIR$/libs/object_detection/builders/losses_builder.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/builders/losses_builder_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/builders/losses_builder_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/builders/matcher_builder.py" afterPath="$PROJECT_DIR$/libs/object_detection/builders/matcher_builder.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/builders/matcher_builder_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/builders/matcher_builder_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/builders/model_builder.py" afterPath="$PROJECT_DIR$/libs/object_detection/builders/model_builder.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/builders/model_builder_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/builders/model_builder_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/builders/optimizer_builder.py" afterPath="$PROJECT_DIR$/libs/object_detection/builders/optimizer_builder.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/builders/optimizer_builder_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/builders/optimizer_builder_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/builders/post_processing_builder.py" afterPath="$PROJECT_DIR$/libs/object_detection/builders/post_processing_builder.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/builders/post_processing_builder_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/builders/post_processing_builder_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/builders/preprocessor_builder.py" afterPath="$PROJECT_DIR$/libs/object_detection/builders/preprocessor_builder.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/builders/preprocessor_builder_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/builders/preprocessor_builder_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/builders/region_similarity_calculator_builder.py" afterPath="$PROJECT_DIR$/libs/object_detection/builders/region_similarity_calculator_builder.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/builders/region_similarity_calculator_builder_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/builders/region_similarity_calculator_builder_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/core/BUILD" afterPath="$PROJECT_DIR$/libs/object_detection/core/BUILD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/core/__init__.py" afterPath="$PROJECT_DIR$/libs/object_detection/core/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/core/anchor_generator.py" afterPath="$PROJECT_DIR$/libs/object_detection/core/anchor_generator.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/core/balanced_positive_negative_sampler.py" afterPath="$PROJECT_DIR$/libs/object_detection/core/balanced_positive_negative_sampler.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/core/balanced_positive_negative_sampler_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/core/balanced_positive_negative_sampler_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/core/batcher.py" afterPath="$PROJECT_DIR$/libs/object_detection/core/batcher.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/core/batcher_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/core/batcher_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/core/box_coder.py" afterPath="$PROJECT_DIR$/libs/object_detection/core/box_coder.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/core/box_coder_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/core/box_coder_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/core/box_list.py" afterPath="$PROJECT_DIR$/libs/object_detection/core/box_list.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/core/box_list_ops.py" afterPath="$PROJECT_DIR$/libs/object_detection/core/box_list_ops.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/core/box_list_ops_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/core/box_list_ops_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/core/box_list_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/core/box_list_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/core/box_predictor.py" afterPath="$PROJECT_DIR$/libs/object_detection/core/box_predictor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/core/box_predictor_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/core/box_predictor_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/core/data_decoder.py" afterPath="$PROJECT_DIR$/libs/object_detection/core/data_decoder.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/core/data_parser.py" afterPath="$PROJECT_DIR$/libs/object_detection/core/data_parser.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/core/keypoint_ops.py" afterPath="$PROJECT_DIR$/libs/object_detection/core/keypoint_ops.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/core/keypoint_ops_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/core/keypoint_ops_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/core/losses.py" afterPath="$PROJECT_DIR$/libs/object_detection/core/losses.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/core/losses_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/core/losses_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/core/matcher.py" afterPath="$PROJECT_DIR$/libs/object_detection/core/matcher.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/core/matcher_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/core/matcher_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/core/minibatch_sampler.py" afterPath="$PROJECT_DIR$/libs/object_detection/core/minibatch_sampler.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/core/minibatch_sampler_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/core/minibatch_sampler_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/core/model.py" afterPath="$PROJECT_DIR$/libs/object_detection/core/model.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/core/post_processing.py" afterPath="$PROJECT_DIR$/libs/object_detection/core/post_processing.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/core/post_processing_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/core/post_processing_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/core/prefetcher.py" afterPath="$PROJECT_DIR$/libs/object_detection/core/prefetcher.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/core/prefetcher_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/core/prefetcher_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/core/preprocessor.py" afterPath="$PROJECT_DIR$/libs/object_detection/core/preprocessor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/core/preprocessor_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/core/preprocessor_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/core/region_similarity_calculator.py" afterPath="$PROJECT_DIR$/libs/object_detection/core/region_similarity_calculator.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/core/region_similarity_calculator_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/core/region_similarity_calculator_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/core/standard_fields.py" afterPath="$PROJECT_DIR$/libs/object_detection/core/standard_fields.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/core/target_assigner.py" afterPath="$PROJECT_DIR$/libs/object_detection/core/target_assigner.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/core/target_assigner_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/core/target_assigner_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/data/kitti_label_map.pbtxt" afterPath="$PROJECT_DIR$/libs/object_detection/data/kitti_label_map.pbtxt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/data/mscoco_label_map.pbtxt" afterPath="$PROJECT_DIR$/libs/object_detection/data/mscoco_label_map.pbtxt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/data/oid_bbox_trainable_label_map.pbtxt" afterPath="$PROJECT_DIR$/libs/object_detection/data/oid_bbox_trainable_label_map.pbtxt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/data/pascal_label_map.pbtxt" afterPath="$PROJECT_DIR$/libs/object_detection/data/pascal_label_map.pbtxt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/data/pet_label_map.pbtxt" afterPath="$PROJECT_DIR$/libs/object_detection/data/pet_label_map.pbtxt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/data_decoders/BUILD" afterPath="$PROJECT_DIR$/libs/object_detection/data_decoders/BUILD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/data_decoders/__init__.py" afterPath="$PROJECT_DIR$/libs/object_detection/data_decoders/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/data_decoders/tf_example_decoder.py" afterPath="$PROJECT_DIR$/libs/object_detection/data_decoders/tf_example_decoder.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/data_decoders/tf_example_decoder_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/data_decoders/tf_example_decoder_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/dataset_tools/BUILD" afterPath="$PROJECT_DIR$/libs/object_detection/dataset_tools/BUILD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/dataset_tools/create_kitti_tf_record.py" afterPath="$PROJECT_DIR$/libs/object_detection/dataset_tools/create_kitti_tf_record.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/dataset_tools/create_kitti_tf_record_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/dataset_tools/create_kitti_tf_record_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/dataset_tools/create_oid_tf_record.py" afterPath="$PROJECT_DIR$/libs/object_detection/dataset_tools/create_oid_tf_record.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/dataset_tools/create_pascal_tf_record.py" afterPath="$PROJECT_DIR$/libs/object_detection/dataset_tools/create_pascal_tf_record.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/dataset_tools/create_pascal_tf_record_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/dataset_tools/create_pascal_tf_record_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/dataset_tools/create_pet_tf_record.py" afterPath="$PROJECT_DIR$/libs/object_detection/dataset_tools/create_pet_tf_record.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/dataset_tools/oid_tfrecord_creation.py" afterPath="$PROJECT_DIR$/libs/object_detection/dataset_tools/oid_tfrecord_creation.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/dataset_tools/oid_tfrecord_creation_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/dataset_tools/oid_tfrecord_creation_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/eval.py" afterPath="$PROJECT_DIR$/libs/object_detection/eval.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/eval_util.py" afterPath="$PROJECT_DIR$/libs/object_detection/eval_util.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/evaluator.py" afterPath="$PROJECT_DIR$/libs/object_detection/evaluator.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/export_inference_graph.py" afterPath="$PROJECT_DIR$/libs/object_detection/export_inference_graph.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/exporter.py" afterPath="$PROJECT_DIR$/libs/object_detection/exporter.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/exporter_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/exporter_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/faster_rcnn_inception_resnet_v2_atrous_oid.config" afterPath="$PROJECT_DIR$/libs/object_detection/faster_rcnn_inception_resnet_v2_atrous_oid.config" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/g3doc/configuring_jobs.md" afterPath="$PROJECT_DIR$/libs/object_detection/g3doc/configuring_jobs.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/g3doc/defining_your_own_model.md" afterPath="$PROJECT_DIR$/libs/object_detection/g3doc/defining_your_own_model.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/g3doc/detection_model_zoo.md" afterPath="$PROJECT_DIR$/libs/object_detection/g3doc/detection_model_zoo.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/g3doc/evaluation_protocols.md" afterPath="$PROJECT_DIR$/libs/object_detection/g3doc/evaluation_protocols.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/g3doc/exporting_models.md" afterPath="$PROJECT_DIR$/libs/object_detection/g3doc/exporting_models.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/g3doc/installation.md" afterPath="$PROJECT_DIR$/libs/object_detection/g3doc/installation.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/g3doc/oid_inference_and_evaluation.md" afterPath="$PROJECT_DIR$/libs/object_detection/g3doc/oid_inference_and_evaluation.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/g3doc/preparing_inputs.md" afterPath="$PROJECT_DIR$/libs/object_detection/g3doc/preparing_inputs.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/g3doc/running_locally.md" afterPath="$PROJECT_DIR$/libs/object_detection/g3doc/running_locally.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/g3doc/running_notebook.md" afterPath="$PROJECT_DIR$/libs/object_detection/g3doc/running_notebook.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/g3doc/running_on_cloud.md" afterPath="$PROJECT_DIR$/libs/object_detection/g3doc/running_on_cloud.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/g3doc/running_pets.md" afterPath="$PROJECT_DIR$/libs/object_detection/g3doc/running_pets.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/g3doc/using_your_own_dataset.md" afterPath="$PROJECT_DIR$/libs/object_detection/g3doc/using_your_own_dataset.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/inference/BUILD" afterPath="$PROJECT_DIR$/libs/object_detection/inference/BUILD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/inference/detection_inference.py" afterPath="$PROJECT_DIR$/libs/object_detection/inference/detection_inference.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/inference/detection_inference_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/inference/detection_inference_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/inference/infer_detections.py" afterPath="$PROJECT_DIR$/libs/object_detection/inference/infer_detections.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/matchers/BUILD" afterPath="$PROJECT_DIR$/libs/object_detection/matchers/BUILD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/matchers/__init__.py" afterPath="$PROJECT_DIR$/libs/object_detection/matchers/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/matchers/argmax_matcher.py" afterPath="$PROJECT_DIR$/libs/object_detection/matchers/argmax_matcher.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/matchers/argmax_matcher_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/matchers/argmax_matcher_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/matchers/bipartite_matcher.py" afterPath="$PROJECT_DIR$/libs/object_detection/matchers/bipartite_matcher.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/matchers/bipartite_matcher_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/matchers/bipartite_matcher_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/meta_architectures/BUILD" afterPath="$PROJECT_DIR$/libs/object_detection/meta_architectures/BUILD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/meta_architectures/__init__.py" afterPath="$PROJECT_DIR$/libs/object_detection/meta_architectures/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/meta_architectures/faster_rcnn_meta_arch.py" afterPath="$PROJECT_DIR$/libs/object_detection/meta_architectures/faster_rcnn_meta_arch.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/meta_architectures/faster_rcnn_meta_arch_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/meta_architectures/faster_rcnn_meta_arch_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/meta_architectures/faster_rcnn_meta_arch_test_lib.py" afterPath="$PROJECT_DIR$/libs/object_detection/meta_architectures/faster_rcnn_meta_arch_test_lib.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/meta_architectures/rfcn_meta_arch.py" afterPath="$PROJECT_DIR$/libs/object_detection/meta_architectures/rfcn_meta_arch.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/meta_architectures/rfcn_meta_arch_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/meta_architectures/rfcn_meta_arch_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/meta_architectures/ssd_meta_arch.py" afterPath="$PROJECT_DIR$/libs/object_detection/meta_architectures/ssd_meta_arch.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/meta_architectures/ssd_meta_arch_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/meta_architectures/ssd_meta_arch_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/metrics/BUILD" afterPath="$PROJECT_DIR$/libs/object_detection/metrics/BUILD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/metrics/offline_eval_map_corloc.py" afterPath="$PROJECT_DIR$/libs/object_detection/metrics/offline_eval_map_corloc.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/metrics/offline_eval_map_corloc_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/metrics/offline_eval_map_corloc_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/metrics/tf_example_parser.py" afterPath="$PROJECT_DIR$/libs/object_detection/metrics/tf_example_parser.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/metrics/tf_example_parser_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/metrics/tf_example_parser_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/models/BUILD" afterPath="$PROJECT_DIR$/libs/object_detection/models/BUILD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/models/__init__.py" afterPath="$PROJECT_DIR$/libs/object_detection/models/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/models/embedded_ssd_mobilenet_v1_feature_extractor.py" afterPath="$PROJECT_DIR$/libs/object_detection/models/embedded_ssd_mobilenet_v1_feature_extractor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/models/embedded_ssd_mobilenet_v1_feature_extractor_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/models/embedded_ssd_mobilenet_v1_feature_extractor_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/models/faster_rcnn_inception_resnet_v2_feature_extractor.py" afterPath="$PROJECT_DIR$/libs/object_detection/models/faster_rcnn_inception_resnet_v2_feature_extractor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/models/faster_rcnn_inception_resnet_v2_feature_extractor_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/models/faster_rcnn_inception_resnet_v2_feature_extractor_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/models/faster_rcnn_inception_v2_feature_extractor.py" afterPath="$PROJECT_DIR$/libs/object_detection/models/faster_rcnn_inception_v2_feature_extractor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/models/faster_rcnn_inception_v2_feature_extractor_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/models/faster_rcnn_inception_v2_feature_extractor_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/models/faster_rcnn_nas_feature_extractor.py" afterPath="$PROJECT_DIR$/libs/object_detection/models/faster_rcnn_nas_feature_extractor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/models/faster_rcnn_nas_feature_extractor_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/models/faster_rcnn_nas_feature_extractor_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/models/faster_rcnn_resnet_v1_feature_extractor.py" afterPath="$PROJECT_DIR$/libs/object_detection/models/faster_rcnn_resnet_v1_feature_extractor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/models/faster_rcnn_resnet_v1_feature_extractor_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/models/faster_rcnn_resnet_v1_feature_extractor_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/models/feature_map_generators.py" afterPath="$PROJECT_DIR$/libs/object_detection/models/feature_map_generators.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/models/feature_map_generators_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/models/feature_map_generators_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/models/ssd_feature_extractor_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/models/ssd_feature_extractor_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/models/ssd_inception_v2_feature_extractor.py" afterPath="$PROJECT_DIR$/libs/object_detection/models/ssd_inception_v2_feature_extractor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/models/ssd_inception_v2_feature_extractor_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/models/ssd_inception_v2_feature_extractor_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/models/ssd_inception_v3_feature_extractor.py" afterPath="$PROJECT_DIR$/libs/object_detection/models/ssd_inception_v3_feature_extractor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/models/ssd_inception_v3_feature_extractor_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/models/ssd_inception_v3_feature_extractor_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/models/ssd_mobilenet_v1_feature_extractor.py" afterPath="$PROJECT_DIR$/libs/object_detection/models/ssd_mobilenet_v1_feature_extractor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/models/ssd_mobilenet_v1_feature_extractor_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/models/ssd_mobilenet_v1_feature_extractor_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/object_detection_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/object_detection_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/object_detection_tutorial.ipynb" afterPath="$PROJECT_DIR$/libs/object_detection/object_detection_tutorial.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/BUILD" afterPath="$PROJECT_DIR$/libs/object_detection/protos/BUILD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/__init__.py" afterPath="$PROJECT_DIR$/libs/object_detection/protos/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/anchor_generator.proto" afterPath="$PROJECT_DIR$/libs/object_detection/protos/anchor_generator.proto" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/anchor_generator_pb2.py" afterPath="$PROJECT_DIR$/libs/object_detection/protos/anchor_generator_pb2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/argmax_matcher.proto" afterPath="$PROJECT_DIR$/libs/object_detection/protos/argmax_matcher.proto" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/argmax_matcher_pb2.py" afterPath="$PROJECT_DIR$/libs/object_detection/protos/argmax_matcher_pb2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/bipartite_matcher.proto" afterPath="$PROJECT_DIR$/libs/object_detection/protos/bipartite_matcher.proto" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/bipartite_matcher_pb2.py" afterPath="$PROJECT_DIR$/libs/object_detection/protos/bipartite_matcher_pb2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/box_coder.proto" afterPath="$PROJECT_DIR$/libs/object_detection/protos/box_coder.proto" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/box_coder_pb2.py" afterPath="$PROJECT_DIR$/libs/object_detection/protos/box_coder_pb2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/box_predictor.proto" afterPath="$PROJECT_DIR$/libs/object_detection/protos/box_predictor.proto" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/box_predictor_pb2.py" afterPath="$PROJECT_DIR$/libs/object_detection/protos/box_predictor_pb2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/eval.proto" afterPath="$PROJECT_DIR$/libs/object_detection/protos/eval.proto" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/eval_pb2.py" afterPath="$PROJECT_DIR$/libs/object_detection/protos/eval_pb2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/faster_rcnn.proto" afterPath="$PROJECT_DIR$/libs/object_detection/protos/faster_rcnn.proto" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/faster_rcnn_box_coder.proto" afterPath="$PROJECT_DIR$/libs/object_detection/protos/faster_rcnn_box_coder.proto" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/faster_rcnn_box_coder_pb2.py" afterPath="$PROJECT_DIR$/libs/object_detection/protos/faster_rcnn_box_coder_pb2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/faster_rcnn_pb2.py" afterPath="$PROJECT_DIR$/libs/object_detection/protos/faster_rcnn_pb2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/grid_anchor_generator.proto" afterPath="$PROJECT_DIR$/libs/object_detection/protos/grid_anchor_generator.proto" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/grid_anchor_generator_pb2.py" afterPath="$PROJECT_DIR$/libs/object_detection/protos/grid_anchor_generator_pb2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/hyperparams.proto" afterPath="$PROJECT_DIR$/libs/object_detection/protos/hyperparams.proto" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/hyperparams_pb2.py" afterPath="$PROJECT_DIR$/libs/object_detection/protos/hyperparams_pb2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/image_resizer.proto" afterPath="$PROJECT_DIR$/libs/object_detection/protos/image_resizer.proto" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/image_resizer_pb2.py" afterPath="$PROJECT_DIR$/libs/object_detection/protos/image_resizer_pb2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/input_reader.proto" afterPath="$PROJECT_DIR$/libs/object_detection/protos/input_reader.proto" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/input_reader_pb2.py" afterPath="$PROJECT_DIR$/libs/object_detection/protos/input_reader_pb2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/keypoint_box_coder.proto" afterPath="$PROJECT_DIR$/libs/object_detection/protos/keypoint_box_coder.proto" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/keypoint_box_coder_pb2.py" afterPath="$PROJECT_DIR$/libs/object_detection/protos/keypoint_box_coder_pb2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/losses.proto" afterPath="$PROJECT_DIR$/libs/object_detection/protos/losses.proto" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/losses_pb2.py" afterPath="$PROJECT_DIR$/libs/object_detection/protos/losses_pb2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/matcher.proto" afterPath="$PROJECT_DIR$/libs/object_detection/protos/matcher.proto" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/matcher_pb2.py" afterPath="$PROJECT_DIR$/libs/object_detection/protos/matcher_pb2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/mean_stddev_box_coder.proto" afterPath="$PROJECT_DIR$/libs/object_detection/protos/mean_stddev_box_coder.proto" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/mean_stddev_box_coder_pb2.py" afterPath="$PROJECT_DIR$/libs/object_detection/protos/mean_stddev_box_coder_pb2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/model.proto" afterPath="$PROJECT_DIR$/libs/object_detection/protos/model.proto" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/model_pb2.py" afterPath="$PROJECT_DIR$/libs/object_detection/protos/model_pb2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/optimizer.proto" afterPath="$PROJECT_DIR$/libs/object_detection/protos/optimizer.proto" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/optimizer_pb2.py" afterPath="$PROJECT_DIR$/libs/object_detection/protos/optimizer_pb2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/pipeline.proto" afterPath="$PROJECT_DIR$/libs/object_detection/protos/pipeline.proto" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/pipeline_pb2.py" afterPath="$PROJECT_DIR$/libs/object_detection/protos/pipeline_pb2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/post_processing.proto" afterPath="$PROJECT_DIR$/libs/object_detection/protos/post_processing.proto" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/post_processing_pb2.py" afterPath="$PROJECT_DIR$/libs/object_detection/protos/post_processing_pb2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/preprocessor.proto" afterPath="$PROJECT_DIR$/libs/object_detection/protos/preprocessor.proto" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/preprocessor_pb2.py" afterPath="$PROJECT_DIR$/libs/object_detection/protos/preprocessor_pb2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/region_similarity_calculator.proto" afterPath="$PROJECT_DIR$/libs/object_detection/protos/region_similarity_calculator.proto" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/region_similarity_calculator_pb2.py" afterPath="$PROJECT_DIR$/libs/object_detection/protos/region_similarity_calculator_pb2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/square_box_coder.proto" afterPath="$PROJECT_DIR$/libs/object_detection/protos/square_box_coder.proto" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/square_box_coder_pb2.py" afterPath="$PROJECT_DIR$/libs/object_detection/protos/square_box_coder_pb2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/ssd.proto" afterPath="$PROJECT_DIR$/libs/object_detection/protos/ssd.proto" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/ssd_anchor_generator.proto" afterPath="$PROJECT_DIR$/libs/object_detection/protos/ssd_anchor_generator.proto" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/ssd_anchor_generator_pb2.py" afterPath="$PROJECT_DIR$/libs/object_detection/protos/ssd_anchor_generator_pb2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/ssd_pb2.py" afterPath="$PROJECT_DIR$/libs/object_detection/protos/ssd_pb2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/string_int_label_map.proto" afterPath="$PROJECT_DIR$/libs/object_detection/protos/string_int_label_map.proto" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/string_int_label_map_pb2.py" afterPath="$PROJECT_DIR$/libs/object_detection/protos/string_int_label_map_pb2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/train.proto" afterPath="$PROJECT_DIR$/libs/object_detection/protos/train.proto" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/protos/train_pb2.py" afterPath="$PROJECT_DIR$/libs/object_detection/protos/train_pb2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/samples/cloud/cloud.yml" afterPath="$PROJECT_DIR$/libs/object_detection/samples/cloud/cloud.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/samples/configs/faster_rcnn_inception_resnet_v2_atrous_coco.config" afterPath="$PROJECT_DIR$/libs/object_detection/samples/configs/faster_rcnn_inception_resnet_v2_atrous_coco.config" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/samples/configs/faster_rcnn_inception_resnet_v2_atrous_pets.config" afterPath="$PROJECT_DIR$/libs/object_detection/samples/configs/faster_rcnn_inception_resnet_v2_atrous_pets.config" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/samples/configs/faster_rcnn_inception_v2_coco.config" afterPath="$PROJECT_DIR$/libs/object_detection/samples/configs/faster_rcnn_inception_v2_coco.config" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/samples/configs/faster_rcnn_inception_v2_pets.config" afterPath="$PROJECT_DIR$/libs/object_detection/samples/configs/faster_rcnn_inception_v2_pets.config" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/samples/configs/faster_rcnn_nas_coco.config" afterPath="$PROJECT_DIR$/libs/object_detection/samples/configs/faster_rcnn_nas_coco.config" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/samples/configs/faster_rcnn_resnet101_coco.config" afterPath="$PROJECT_DIR$/libs/object_detection/samples/configs/faster_rcnn_resnet101_coco.config" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/samples/configs/faster_rcnn_resnet101_kitti.config" afterPath="$PROJECT_DIR$/libs/object_detection/samples/configs/faster_rcnn_resnet101_kitti.config" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/samples/configs/faster_rcnn_resnet101_pets.config" afterPath="$PROJECT_DIR$/libs/object_detection/samples/configs/faster_rcnn_resnet101_pets.config" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/samples/configs/faster_rcnn_resnet101_voc07.config" afterPath="$PROJECT_DIR$/libs/object_detection/samples/configs/faster_rcnn_resnet101_voc07.config" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/samples/configs/faster_rcnn_resnet152_coco.config" afterPath="$PROJECT_DIR$/libs/object_detection/samples/configs/faster_rcnn_resnet152_coco.config" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/samples/configs/faster_rcnn_resnet152_pets.config" afterPath="$PROJECT_DIR$/libs/object_detection/samples/configs/faster_rcnn_resnet152_pets.config" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/samples/configs/faster_rcnn_resnet50_coco.config" afterPath="$PROJECT_DIR$/libs/object_detection/samples/configs/faster_rcnn_resnet50_coco.config" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/samples/configs/faster_rcnn_resnet50_pets.config" afterPath="$PROJECT_DIR$/libs/object_detection/samples/configs/faster_rcnn_resnet50_pets.config" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/samples/configs/rfcn_resnet101_coco.config" afterPath="$PROJECT_DIR$/libs/object_detection/samples/configs/rfcn_resnet101_coco.config" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/samples/configs/rfcn_resnet101_pets.config" afterPath="$PROJECT_DIR$/libs/object_detection/samples/configs/rfcn_resnet101_pets.config" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/samples/configs/ssd_inception_v2_coco.config" afterPath="$PROJECT_DIR$/libs/object_detection/samples/configs/ssd_inception_v2_coco.config" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/samples/configs/ssd_inception_v2_pets.config" afterPath="$PROJECT_DIR$/libs/object_detection/samples/configs/ssd_inception_v2_pets.config" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/samples/configs/ssd_mobilenet_v1_coco.config" afterPath="$PROJECT_DIR$/libs/object_detection/samples/configs/ssd_mobilenet_v1_coco.config" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/samples/configs/ssd_mobilenet_v1_pets.config" afterPath="$PROJECT_DIR$/libs/object_detection/samples/configs/ssd_mobilenet_v1_pets.config" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/savedModel/checkpoint" afterPath="$PROJECT_DIR$/libs/object_detection/savedModel/checkpoint" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/savedModel/pascal_label_map.pbtxt" afterPath="$PROJECT_DIR$/libs/object_detection/savedModel/pascal_label_map.pbtxt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/test_images/image_info.txt" afterPath="$PROJECT_DIR$/libs/object_detection/test_images/image_info.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/train.py" afterPath="$PROJECT_DIR$/libs/object_detection/train.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/trainer.py" afterPath="$PROJECT_DIR$/libs/object_detection/trainer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/trainer_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/trainer_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/utils/BUILD" afterPath="$PROJECT_DIR$/libs/object_detection/utils/BUILD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/utils/__init__.py" afterPath="$PROJECT_DIR$/libs/object_detection/utils/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/utils/category_util.py" afterPath="$PROJECT_DIR$/libs/object_detection/utils/category_util.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/utils/category_util_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/utils/category_util_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/utils/config_util.py" afterPath="$PROJECT_DIR$/libs/object_detection/utils/config_util.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/utils/config_util_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/utils/config_util_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/utils/dataset_util.py" afterPath="$PROJECT_DIR$/libs/object_detection/utils/dataset_util.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/utils/dataset_util_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/utils/dataset_util_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/utils/label_map_util.py" afterPath="$PROJECT_DIR$/libs/object_detection/utils/label_map_util.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/utils/label_map_util_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/utils/label_map_util_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/utils/learning_schedules.py" afterPath="$PROJECT_DIR$/libs/object_detection/utils/learning_schedules.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/utils/learning_schedules_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/utils/learning_schedules_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/utils/metrics.py" afterPath="$PROJECT_DIR$/libs/object_detection/utils/metrics.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/utils/metrics_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/utils/metrics_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/utils/np_box_list.py" afterPath="$PROJECT_DIR$/libs/object_detection/utils/np_box_list.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/utils/np_box_list_ops.py" afterPath="$PROJECT_DIR$/libs/object_detection/utils/np_box_list_ops.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/utils/np_box_list_ops_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/utils/np_box_list_ops_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/utils/np_box_list_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/utils/np_box_list_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/utils/np_box_ops.py" afterPath="$PROJECT_DIR$/libs/object_detection/utils/np_box_ops.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/utils/np_box_ops_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/utils/np_box_ops_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/utils/object_detection_evaluation.py" afterPath="$PROJECT_DIR$/libs/object_detection/utils/object_detection_evaluation.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/utils/object_detection_evaluation_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/utils/object_detection_evaluation_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/utils/ops.py" afterPath="$PROJECT_DIR$/libs/object_detection/utils/ops.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/utils/ops_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/utils/ops_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/utils/per_image_evaluation.py" afterPath="$PROJECT_DIR$/libs/object_detection/utils/per_image_evaluation.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/utils/per_image_evaluation_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/utils/per_image_evaluation_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/utils/shape_utils.py" afterPath="$PROJECT_DIR$/libs/object_detection/utils/shape_utils.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/utils/shape_utils_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/utils/shape_utils_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/utils/static_shape.py" afterPath="$PROJECT_DIR$/libs/object_detection/utils/static_shape.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/utils/static_shape_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/utils/static_shape_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/utils/test_utils.py" afterPath="$PROJECT_DIR$/libs/object_detection/utils/test_utils.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/utils/test_utils_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/utils/test_utils_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/utils/variables_helper.py" afterPath="$PROJECT_DIR$/libs/object_detection/utils/variables_helper.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/utils/variables_helper_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/utils/variables_helper_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/utils/visualization_utils.py" afterPath="$PROJECT_DIR$/libs/object_detection/utils/visualization_utils.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/object_detection/utils/visualization_utils_test.py" afterPath="$PROJECT_DIR$/libs/object_detection/utils/visualization_utils_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/BUILD" afterPath="$PROJECT_DIR$/libs/slim/BUILD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/README.md" afterPath="$PROJECT_DIR$/libs/slim/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/__init__.py" afterPath="$PROJECT_DIR$/libs/slim/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/datasets/__init__.py" afterPath="$PROJECT_DIR$/libs/slim/datasets/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/datasets/build_imagenet_data.py" afterPath="$PROJECT_DIR$/libs/slim/datasets/build_imagenet_data.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/datasets/cifar10.py" afterPath="$PROJECT_DIR$/libs/slim/datasets/cifar10.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/datasets/dataset_factory.py" afterPath="$PROJECT_DIR$/libs/slim/datasets/dataset_factory.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/datasets/dataset_utils.py" afterPath="$PROJECT_DIR$/libs/slim/datasets/dataset_utils.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/datasets/download_and_convert_cifar10.py" afterPath="$PROJECT_DIR$/libs/slim/datasets/download_and_convert_cifar10.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/datasets/download_and_convert_flowers.py" afterPath="$PROJECT_DIR$/libs/slim/datasets/download_and_convert_flowers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/datasets/download_and_convert_imagenet.sh" afterPath="$PROJECT_DIR$/libs/slim/datasets/download_and_convert_imagenet.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/datasets/download_and_convert_mnist.py" afterPath="$PROJECT_DIR$/libs/slim/datasets/download_and_convert_mnist.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/datasets/download_imagenet.sh" afterPath="$PROJECT_DIR$/libs/slim/datasets/download_imagenet.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/datasets/flowers.py" afterPath="$PROJECT_DIR$/libs/slim/datasets/flowers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/datasets/imagenet.py" afterPath="$PROJECT_DIR$/libs/slim/datasets/imagenet.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/datasets/imagenet_2012_validation_synset_labels.txt" afterPath="$PROJECT_DIR$/libs/slim/datasets/imagenet_2012_validation_synset_labels.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/datasets/imagenet_lsvrc_2015_synsets.txt" afterPath="$PROJECT_DIR$/libs/slim/datasets/imagenet_lsvrc_2015_synsets.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/datasets/imagenet_metadata.txt" afterPath="$PROJECT_DIR$/libs/slim/datasets/imagenet_metadata.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/datasets/mnist.py" afterPath="$PROJECT_DIR$/libs/slim/datasets/mnist.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/datasets/preprocess_imagenet_validation_data.py" afterPath="$PROJECT_DIR$/libs/slim/datasets/preprocess_imagenet_validation_data.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/datasets/process_bounding_boxes.py" afterPath="$PROJECT_DIR$/libs/slim/datasets/process_bounding_boxes.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/deployment/__init__.py" afterPath="$PROJECT_DIR$/libs/slim/deployment/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/deployment/model_deploy.py" afterPath="$PROJECT_DIR$/libs/slim/deployment/model_deploy.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/deployment/model_deploy_test.py" afterPath="$PROJECT_DIR$/libs/slim/deployment/model_deploy_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/download_and_convert_data.py" afterPath="$PROJECT_DIR$/libs/slim/download_and_convert_data.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/eval_image_classifier.py" afterPath="$PROJECT_DIR$/libs/slim/eval_image_classifier.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/export_inference_graph.py" afterPath="$PROJECT_DIR$/libs/slim/export_inference_graph.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/export_inference_graph_test.py" afterPath="$PROJECT_DIR$/libs/slim/export_inference_graph_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/__init__.py" afterPath="$PROJECT_DIR$/libs/slim/nets/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/alexnet.py" afterPath="$PROJECT_DIR$/libs/slim/nets/alexnet.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/alexnet_test.py" afterPath="$PROJECT_DIR$/libs/slim/nets/alexnet_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/cifarnet.py" afterPath="$PROJECT_DIR$/libs/slim/nets/cifarnet.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/cyclegan.py" afterPath="$PROJECT_DIR$/libs/slim/nets/cyclegan.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/cyclegan_test.py" afterPath="$PROJECT_DIR$/libs/slim/nets/cyclegan_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/dcgan.py" afterPath="$PROJECT_DIR$/libs/slim/nets/dcgan.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/dcgan_test.py" afterPath="$PROJECT_DIR$/libs/slim/nets/dcgan_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/inception.py" afterPath="$PROJECT_DIR$/libs/slim/nets/inception.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/inception_resnet_v2.py" afterPath="$PROJECT_DIR$/libs/slim/nets/inception_resnet_v2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/inception_resnet_v2_test.py" afterPath="$PROJECT_DIR$/libs/slim/nets/inception_resnet_v2_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/inception_utils.py" afterPath="$PROJECT_DIR$/libs/slim/nets/inception_utils.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/inception_v1.py" afterPath="$PROJECT_DIR$/libs/slim/nets/inception_v1.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/inception_v1_test.py" afterPath="$PROJECT_DIR$/libs/slim/nets/inception_v1_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/inception_v2.py" afterPath="$PROJECT_DIR$/libs/slim/nets/inception_v2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/inception_v2_test.py" afterPath="$PROJECT_DIR$/libs/slim/nets/inception_v2_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/inception_v3.py" afterPath="$PROJECT_DIR$/libs/slim/nets/inception_v3.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/inception_v3_test.py" afterPath="$PROJECT_DIR$/libs/slim/nets/inception_v3_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/inception_v4.py" afterPath="$PROJECT_DIR$/libs/slim/nets/inception_v4.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/inception_v4_test.py" afterPath="$PROJECT_DIR$/libs/slim/nets/inception_v4_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/lenet.py" afterPath="$PROJECT_DIR$/libs/slim/nets/lenet.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/mobilenet_v1.md" afterPath="$PROJECT_DIR$/libs/slim/nets/mobilenet_v1.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/mobilenet_v1.py" afterPath="$PROJECT_DIR$/libs/slim/nets/mobilenet_v1.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/mobilenet_v1_test.py" afterPath="$PROJECT_DIR$/libs/slim/nets/mobilenet_v1_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/nasnet/README.md" afterPath="$PROJECT_DIR$/libs/slim/nets/nasnet/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/nasnet/__init__.py" afterPath="$PROJECT_DIR$/libs/slim/nets/nasnet/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/nasnet/nasnet.py" afterPath="$PROJECT_DIR$/libs/slim/nets/nasnet/nasnet.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/nasnet/nasnet_test.py" afterPath="$PROJECT_DIR$/libs/slim/nets/nasnet/nasnet_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/nasnet/nasnet_utils.py" afterPath="$PROJECT_DIR$/libs/slim/nets/nasnet/nasnet_utils.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/nasnet/nasnet_utils_test.py" afterPath="$PROJECT_DIR$/libs/slim/nets/nasnet/nasnet_utils_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/nets_factory.py" afterPath="$PROJECT_DIR$/libs/slim/nets/nets_factory.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/nets_factory_test.py" afterPath="$PROJECT_DIR$/libs/slim/nets/nets_factory_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/overfeat.py" afterPath="$PROJECT_DIR$/libs/slim/nets/overfeat.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/overfeat_test.py" afterPath="$PROJECT_DIR$/libs/slim/nets/overfeat_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/pix2pix.py" afterPath="$PROJECT_DIR$/libs/slim/nets/pix2pix.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/pix2pix_test.py" afterPath="$PROJECT_DIR$/libs/slim/nets/pix2pix_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/resnet_utils.py" afterPath="$PROJECT_DIR$/libs/slim/nets/resnet_utils.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/resnet_v1.py" afterPath="$PROJECT_DIR$/libs/slim/nets/resnet_v1.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/resnet_v1_test.py" afterPath="$PROJECT_DIR$/libs/slim/nets/resnet_v1_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/resnet_v2.py" afterPath="$PROJECT_DIR$/libs/slim/nets/resnet_v2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/resnet_v2_test.py" afterPath="$PROJECT_DIR$/libs/slim/nets/resnet_v2_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/vgg.py" afterPath="$PROJECT_DIR$/libs/slim/nets/vgg.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/nets/vgg_test.py" afterPath="$PROJECT_DIR$/libs/slim/nets/vgg_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/preprocessing/__init__.py" afterPath="$PROJECT_DIR$/libs/slim/preprocessing/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/preprocessing/cifarnet_preprocessing.py" afterPath="$PROJECT_DIR$/libs/slim/preprocessing/cifarnet_preprocessing.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/preprocessing/inception_preprocessing.py" afterPath="$PROJECT_DIR$/libs/slim/preprocessing/inception_preprocessing.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/preprocessing/lenet_preprocessing.py" afterPath="$PROJECT_DIR$/libs/slim/preprocessing/lenet_preprocessing.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/preprocessing/preprocessing_factory.py" afterPath="$PROJECT_DIR$/libs/slim/preprocessing/preprocessing_factory.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/preprocessing/vgg_preprocessing.py" afterPath="$PROJECT_DIR$/libs/slim/preprocessing/vgg_preprocessing.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/scripts/export_mobilenet.sh" afterPath="$PROJECT_DIR$/libs/slim/scripts/export_mobilenet.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/scripts/finetune_inception_resnet_v2_on_flowers.sh" afterPath="$PROJECT_DIR$/libs/slim/scripts/finetune_inception_resnet_v2_on_flowers.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/scripts/finetune_inception_v1_on_flowers.sh" afterPath="$PROJECT_DIR$/libs/slim/scripts/finetune_inception_v1_on_flowers.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/scripts/finetune_inception_v3_on_flowers.sh" afterPath="$PROJECT_DIR$/libs/slim/scripts/finetune_inception_v3_on_flowers.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/scripts/finetune_resnet_v1_50_on_flowers.sh" afterPath="$PROJECT_DIR$/libs/slim/scripts/finetune_resnet_v1_50_on_flowers.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/scripts/train_cifarnet_on_cifar10.sh" afterPath="$PROJECT_DIR$/libs/slim/scripts/train_cifarnet_on_cifar10.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/scripts/train_lenet_on_mnist.sh" afterPath="$PROJECT_DIR$/libs/slim/scripts/train_lenet_on_mnist.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/setup.py" afterPath="$PROJECT_DIR$/libs/slim/setup.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/slim_walkthrough.ipynb" afterPath="$PROJECT_DIR$/libs/slim/slim_walkthrough.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/slim/train_image_classifier.py" afterPath="$PROJECT_DIR$/libs/slim/train_image_classifier.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/utils/__init__.py" afterPath="$PROJECT_DIR$/libs/utils/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/utils/app_utils.py" afterPath="$PROJECT_DIR$/libs/utils/app_utils.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/utils/decorator.py" afterPath="$PROJECT_DIR$/libs/utils/decorator.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/utils/frame_parser.py" afterPath="$PROJECT_DIR$/libs/utils/frame_parser.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/managers/__init__.py" afterPath="$PROJECT_DIR$/managers/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/managers/comm_manager.py" afterPath="$PROJECT_DIR$/managers/comm_manager.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/managers/component_manager.py" afterPath="$PROJECT_DIR$/managers/component_manager.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/managers/config_manager.py" afterPath="$PROJECT_DIR$/managers/config_manager.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/managers/path_manager.py" afterPath="$PROJECT_DIR$/managers/path_manager.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/managers/queue_manager.py" afterPath="$PROJECT_DIR$/managers/queue_manager.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/__init__.py" afterPath="$PROJECT_DIR$/modules/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/comm/__init__.py" afterPath="$PROJECT_DIR$/modules/comm/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/comm/comm_recv_service.py" afterPath="$PROJECT_DIR$/modules/comm/comm_recv_service.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/comm/comm_send_service.py" afterPath="$PROJECT_DIR$/modules/comm/comm_send_service.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/comm/msg.py" afterPath="$PROJECT_DIR$/modules/comm/msg.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/comm/msg_code_define.py" afterPath="$PROJECT_DIR$/modules/comm/msg_code_define.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/comm/tcp_client.py" afterPath="$PROJECT_DIR$/modules/comm/tcp_client.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/frame/__init__.py" afterPath="$PROJECT_DIR$/modules/frame/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/frame/frame.py" afterPath="$PROJECT_DIR$/modules/frame/frame.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/frame/frame_manager.py" afterPath="$PROJECT_DIR$/modules/frame/frame_manager.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/frame/item.py" afterPath="$PROJECT_DIR$/modules/frame/item.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/gate/__init__.py" afterPath="$PROJECT_DIR$/modules/gate/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/gate/gate_status.py" afterPath="$PROJECT_DIR$/modules/gate/gate_status.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/video/__init__.py" afterPath="$PROJECT_DIR$/modules/video/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/video/video_capture.py" afterPath="$PROJECT_DIR$/modules/video/video_capture.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/video/video_parser.py" afterPath="$PROJECT_DIR$/modules/video/video_parser.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/video/video_parser.py.pool" afterPath="$PROJECT_DIR$/modules/video/video_parser.py.pool" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/video/video_parser.py.single_process" afterPath="$PROJECT_DIR$/modules/video/video_parser.py.single_process" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/video/video_parser.py.xiecheng" afterPath="$PROJECT_DIR$/modules/video/video_parser.py.xiecheng" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.py" afterPath="$PROJECT_DIR$/project.py" />
     </list>
     <ignored path="VI_Detect.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -458,16 +22,17 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="VI_Detect" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="project.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="project.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-24">
-              <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+            <state relative-caret-position="1716">
+              <caret line="66" column="24" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
               <folding>
                 <element signature="e#100#109#0" expanded="true" />
               </folding>
@@ -479,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/modules/comm/comm_recv_service.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -490,8 +55,8 @@
       <file leaf-file-name="frame_service.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/frame/frame_service.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+            <state relative-caret-position="182">
+              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -499,24 +64,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="video_parser.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="video_parser.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/video/video_parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="238" column="8" lean-forward="false" selection-start-line="238" selection-start-column="8" selection-end-line="238" selection-end-column="8" />
+            <state relative-caret-position="260">
+              <caret line="265" column="16" selection-start-line="265" selection-start-column="16" selection-end-line="265" selection-end-column="16" />
               <folding>
                 <element signature="e#113#123#0" expanded="true" />
-                <marker date="1516194929006" expanded="true" signature="113:917" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gate_status.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/gate/gate_status.py">
+      <file leaf-file-name="queue_manager.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/managers/queue_manager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="75" column="27" lean-forward="true" selection-start-line="75" selection-start-column="27" selection-end-line="75" selection-end-column="27" />
+            <state relative-caret-position="272">
+              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python27/Lib/multiprocessing/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="426">
+              <caret line="212" column="13" selection-start-line="212" selection-start-column="13" selection-end-line="212" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="queues.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python27/Lib/multiprocessing/queues.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="452">
+              <caret line="100" column="24" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Queue.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python27/Lib/Queue.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -525,8 +119,8 @@
       <file leaf-file-name="video_capture.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/video/video_capture.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-810">
-              <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            <state relative-caret-position="364">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
               <folding>
                 <element signature="e#107#118#0" expanded="true" />
               </folding>
@@ -537,43 +131,11 @@
       <file leaf-file-name="frame_manager.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/frame/frame_manager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+            <state relative-caret-position="936">
+              <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
               <folding>
                 <element signature="e#106#122#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="msg.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/comm/msg.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1641">
-              <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-              <folding>
-                <element signature="e#25#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="process_msg.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/video/process_msg.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -606,11 +168,11 @@
         <option value="$PROJECT_DIR$/modules/video/process_msg.py" />
         <option value="$PROJECT_DIR$/modules/video/video_capture.py" />
         <option value="$PROJECT_DIR$/modules/frame/frame.py" />
-        <option value="$PROJECT_DIR$/modules/video/video_parser.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/modules/frame/frame_service.py" />
         <option value="$PROJECT_DIR$/modules/frame/frame_manager.py" />
         <option value="$PROJECT_DIR$/project.py" />
+        <option value="$PROJECT_DIR$/modules/video/video_parser.py" />
       </list>
     </option>
   </component>
@@ -626,8 +188,15 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
     <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -644,51 +213,72 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <expand>
-            <path>
-              <item name="VI_Detect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VI_Detect" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VI_Detect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VI_Detect" type="462c0819:PsiDirectoryNode" />
-              <item name="managers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VI_Detect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VI_Detect" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VI_Detect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VI_Detect" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="comm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VI_Detect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VI_Detect" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="frame" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VI_Detect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VI_Detect" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="gate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VI_Detect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VI_Detect" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="video" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VI_Detect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VI_Detect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VI_Detect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VI_Detect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VI_Detect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VI_Detect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VI_Detect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="video" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VI_Detect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VI_Detect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="managers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -712,13 +302,23 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.main">
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
+    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="VI_Detect" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -800,6 +400,15 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <module name="VI_Detect" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -919,24 +528,9 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="VI_Detect" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Python.main" />
+    </list>
     <recent_temporary>
       <list size="1">
         <item index="0" class="java.lang.String" itemvalue="Python.main" />
@@ -957,28 +551,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="1912" y="-85" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11647059" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11647059" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1002,8 +596,196 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/project.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1716">
+          <caret line="66" column="24" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
+          <folding>
+            <element signature="e#100#109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/comm/comm_recv_service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/frame/frame_service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/video/video_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="238" column="8" selection-start-line="238" selection-start-column="8" selection-end-line="238" selection-end-column="8" />
+          <folding>
+            <element signature="e#113#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/gate/gate_status.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1950">
+          <caret line="75" column="27" selection-start-line="75" selection-start-column="27" selection-end-line="75" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/video/video_capture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding>
+            <element signature="e#107#118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/frame/frame_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+          <folding>
+            <element signature="e#106#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/comm/msg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+          <folding>
+            <element signature="e#25#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/video/process_msg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#100#109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/comm/comm_recv_service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/frame/frame_service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/video/video_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6188">
+          <caret line="238" column="8" selection-start-line="238" selection-start-column="8" selection-end-line="238" selection-end-column="8" />
+          <folding>
+            <element signature="e#113#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/gate/gate_status.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1950">
+          <caret line="75" column="27" selection-start-line="75" selection-start-column="27" selection-end-line="75" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/video/video_capture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding>
+            <element signature="e#107#118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/frame/frame_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+          <folding>
+            <element signature="e#106#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/comm/msg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+          <folding>
+            <element signature="e#25#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/video/process_msg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
             <element signature="e#100#109#0" expanded="true" />
           </folding>
@@ -1013,10 +795,9 @@
     <entry file="file://$PROJECT_DIR$/modules/video/video_parser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="682">
-          <caret line="53" column="31" lean-forward="false" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+          <caret line="53" column="31" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
           <folding>
             <element signature="e#113#123#0" expanded="true" />
-            <marker date="1516194929006" expanded="true" signature="113:917" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1024,7 +805,7 @@
     <entry file="file://$PROJECT_DIR$/modules/video/video_capture.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="e#107#118#0" expanded="true" />
           </folding>
@@ -1034,7 +815,7 @@
     <entry file="file://$PROJECT_DIR$/modules/frame/frame_manager.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
-          <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
           <folding>
             <element signature="e#106#122#0" expanded="true" />
           </folding>
@@ -1044,81 +825,46 @@
     <entry file="file://$PROJECT_DIR$/modules/frame/frame.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-          <folding />
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/video/video_parser.py.pool">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1980">
-          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-          <folding />
+          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/managers/queue_manager.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="770">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/multiprocessing/__init__.py" />
-    <entry file="file://C:/Python27/Lib/multiprocessing/queues.py" />
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/multiprocessing/queues.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-856">
-          <caret line="57" column="8" lean-forward="false" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/multiprocessing/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2207">
-          <caret line="216" column="42" lean-forward="true" selection-start-line="216" selection-start-column="42" selection-end-line="216" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/multiprocessing/process.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="110" column="28" lean-forward="false" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/managers/queue_manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/multiprocessing/queues.py" />
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/multiprocessing/__init__.py" />
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/multiprocessing/process.py" />
     <entry file="file://$PROJECT_DIR$/modules/video/video_parser.py.pool">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
-          <caret line="55" column="34" lean-forward="true" selection-start-line="54" selection-start-column="31" selection-end-line="55" selection-end-column="34" />
-          <folding />
+          <caret line="55" column="34" selection-start-line="54" selection-start-column="31" selection-end-line="55" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/frame/frame.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="858">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1126,51 +872,40 @@
     <entry file="file://$PROJECT_DIR$/modules/video/video_parser.py.single_process">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/gate/gate_status.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="75" column="27" lean-forward="true" selection-start-line="75" selection-start-column="27" selection-end-line="75" selection-end-column="27" />
+        <state relative-caret-position="1950">
+          <caret line="75" column="27" selection-start-line="75" selection-start-column="27" selection-end-line="75" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/video/process_msg.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        <state relative-caret-position="442">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/comm/msg.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1641">
-          <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        <state relative-caret-position="182">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
           <folding>
             <element signature="e#25#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/comm/comm_recv_service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/frame/frame_service.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="182">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -1179,8 +914,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/frame/frame_manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+        <state relative-caret-position="936">
+          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
           <folding>
             <element signature="e#106#122#0" expanded="true" />
           </folding>
@@ -1189,31 +924,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/video/video_capture.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-810">
-          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        <state relative-caret-position="364">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
           <folding>
             <element signature="e#107#118#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/video/video_parser.py">
+    <entry file="file://$PROJECT_DIR$/project.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="238" column="8" lean-forward="false" selection-start-line="238" selection-start-column="8" selection-end-line="238" selection-end-column="8" />
+        <state relative-caret-position="1716">
+          <caret line="66" column="24" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
           <folding>
-            <element signature="e#113#123#0" expanded="true" />
-            <marker date="1516194929006" expanded="true" signature="113:917" ph="..." />
+            <element signature="e#100#109#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project.py">
+    <entry file="file://$PROJECT_DIR$/modules/comm/comm_recv_service.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24">
-          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        <state relative-caret-position="176">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
           <folding>
-            <element signature="e#100#109#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/managers/queue_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/multiprocessing/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="212" column="13" selection-start-line="212" selection-start-column="13" selection-end-line="212" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/multiprocessing/queues.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="100" column="24" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/Queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/video/video_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="265" column="16" selection-start-line="265" selection-start-column="16" selection-end-line="265" selection-end-column="16" />
+          <folding>
+            <element signature="e#113#123#0" expanded="true" />
           </folding>
         </state>
       </provider>

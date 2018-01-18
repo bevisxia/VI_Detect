@@ -10,6 +10,7 @@ import threading
 import thread
 import multiprocessing
 from multiprocessing import Queue, Pool, Process
+from Queue import Empty
 
 from managers.config_manager import ConfigManager
 from modules.comm.msg import MsgFactory
@@ -257,7 +258,12 @@ class VideoParserProcess(multiprocessing.Process):
 
     def run(self):
         while True:
-            operation_id, frame_id, origin_frame = self.__in_queue.get()
+            try:
+                operation_id, frame_id, origin_frame = self.__in_queue.get(False,0.1)
+            except Empty:
+                print 'video parser queue is empty'
+                continue
+                
             category_index = ComponentManager.get_category_index()
             updated_frame, score, classes, boxes = parse_origin_video_frame(origin_frame,
                                                                            self.__session,
