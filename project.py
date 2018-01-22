@@ -16,8 +16,8 @@ from managers.component_manager import ComponentManager
 from managers.queue_manager import QueueManager
 from managers.comm_manager import CommManager
 from modules.video.video_parser import VideoParserProcess
-from modules.comm.msg import MsgFactory
-from modules.comm.msg_code_define import MsgCodeEnum
+# from modules.comm.msg import MsgFactory
+# from modules.comm.msg_code_define import MsgCodeEnum
 from modules.comm.comm_recv_service import CommRecvService
 from modules.frame.frame_manager import FrameManager
 from modules.frame.frame_service import FrameService
@@ -25,6 +25,8 @@ from modules.video.video_capture import VideoCaptureProcess
 from modules.video.video_parser import VideoParserProcess
 from modules.video.video_show import VideoShowProcess
 import thread
+# import affinity
+# import psutil
 
 def _parse_args():
     parser = argparse.ArgumentParser()
@@ -65,10 +67,6 @@ def start_main():
     comm_recv_thread = CommRecvService('comm_recv_service', CommManager.get_tcp_client())
     comm_recv_thread.start()
 
-    # send register msg
-    send_service = CommManager.get_comm_send_service()
-    send_service.send_msg(MsgFactory.get_msg(MsgCodeEnum.MSG_REGISTER_REQ).get_body())
-
     # start frame_manager service
     global frame_manager
     frame_service = FrameService(frame_manager, QueueManager.get_detected_frame_queue())
@@ -84,8 +82,16 @@ def start_main():
     video_parser.run()
 
     # start video show thread
-    video_show = VideoShowProcess(QueueManager.get_updated_frame_queue())
-    video_show.start()
+    # video_show = VideoShowProcess(QueueManager.get_updated_frame_queue())
+    # video_show.start()
+
+    # set affinity
+    # p = psutil.Process()
+    # pro_info = p.as_dict(attrs=['pid', 'name', 'username'])
+    # print psutil.cpu_count()
+    # print "pid: ", os.getpid()
+    # affinity.set_process_affinity_mask(os.getpid(),2L)
+    # print "run on cpu", affinity.get_process_affinity_mask(os.getpid())
 
     # start video capture
     video_capture = VideoCaptureProcess(QueueManager.get_origin_frame_queue(),
@@ -94,30 +100,8 @@ def start_main():
     # video_capture.start()
     video_capture.run()
 
-    # detection_graph = tf.Graph()
-    # with detection_graph.as_default():
-    #     od_graph_def = tf.GraphDef()
-    #     with tf.gfile.GFile(PathManager.get_ckpt_path(), 'rb') as fid:
-    #         serialized_graph = fid.read()
-    #         od_graph_def.ParseFromString(serialized_graph)
-    #         tf.import_graph_def(od_graph_def, name='')
-    #
-    #     sess = tf.Session(graph=detection_graph)
-
-    # while True:
-        # print "xxxxx1"
-        # operation_id, frame_id, origin_frame = QueueManager.get_origin_frame_queue().get()
-        #
-        # category_index = ComponentManager.get_category_index()
-        # updated_frame, score, classes, boxes = parse_origin_video_frame(origin_frame,
-        #                                                                 sess,
-        #                                                                 detection_graph,
-        #                                                                 category_index)
-        # time.sleep(0.2)
-
 def clear_project():
     CommManager.stop()
-
 
 frame_manager = None
 if __name__ == '__main__':

@@ -2,6 +2,8 @@ import time
 import threading
 import json
 from modules.comm.msg import MsgFactory
+from modules.comm.msg_code_define import MsgCodeEnum
+from managers.comm_manager import CommManager
 
 class CommRecvService(threading.Thread):
 
@@ -15,13 +17,22 @@ class CommRecvService(threading.Thread):
         self.__alive = False
 
     def run(self):
+        registered = False
+        send_service = CommManager.get_comm_send_service()
+
         while self.__alive:
+            if registered == False:
+                # send register msg
+                send_service.send_msg(MsgFactory.get_msg(MsgCodeEnum.MSG_REGISTER_REQ).get_body())
+                registered = True
+
             flag, msg_buf = self.__tcp_client.recv(512)
             print "recv: ", msg_buf
             if not msg_buf:
                 #self.__alive = False
                 print "tcp_client try reconnect!"
                 self.__tcp_client.reconnect()
+                registered = False
                 time.sleep(1)
             else:
                 # buf end with '\n', we must remove first before parse it

@@ -64,25 +64,37 @@ class VideoCaptureProcess(object):
         video_capture = WebcamVideoStream(ConfigManager.get_sources(),
                                           ConfigManager.get_width(),
                                           ConfigManager.get_height()).start()
-        fps = FPS().start()
-        n = 0
+        # fps = FPS().start()
+        # n = 0
         t = time.time()
         while True:
             if self.__gate_open:
                 origin_frame = video_capture.read()
+
                 time.sleep(0.1)
-                n += 1
+                # n += 1
                 now = time.time()
                 if now - t > 1:
-                    print "read FPS: ", n, " time: ", now - t,
-                    print " __in_queue: ", self.__in_queue.qsize(), " output_q: ", self.__out_queue.qsize()
+                    # print "read FPS: ", n, " time: ", now - t,
+                    # print " __in_queue: ", self.__in_queue.qsize(), " output_q: ", self.__out_queue.qsize()
                     t = now
-                    n = 0
+                    # n = 0
+                    (b, g, r) = origin_frame[0, 0]
+                    # (b1, g1, r1) = origin_frame[50, 50]
+                    # (b2, g2, r2) = origin_frame[100, 100]
+                    print (b, g, r)
+                    if (b < 40 or g < 40 or r < 40):
+                        print "camera has been blocked"
 
-                frame_rgb = cv2.cvtColor(origin_frame, cv2.COLOR_BGR2RGB)
-                self.__in_queue.put((self.__operation_id, self.__frame_id, frame_rgb))
+                self.__in_queue.put((self.__operation_id, self.__frame_id, origin_frame))
                 self.__frame_id += 1
+
+                frame_id, output_frame = self.__out_queue.get()
+                # # output_rgb = cv2.cvtColor(output_frame, cv2.COLOR_RGB2BGR)
+                cv2.imshow("video", output_frame)
+                if cv2.waitKey(1) & 0xFF == ord('q'):
+                    break
             else:
-                time.sleep(0.5)
+                time.sleep(1)
 
                 # updated_frame = self.__get_im_frame()

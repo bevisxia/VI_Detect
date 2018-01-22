@@ -52,7 +52,7 @@ class FrameManager(object):
             if QueueManager.is_round_over():
                 break
             else:
-                time.sleep(0.1)
+                time.sleep(1)
                 i += 1
 
         # to ensure the last frame is well handled
@@ -70,7 +70,6 @@ class FrameManager(object):
                 continue
             else:
                 frame_list.insert(i+1, insert_frame)
-                print "insert frame id: ", insert_frame.get_frame_id()
                 break
         else:
             frame_list.insert(0, insert_frame)
@@ -106,27 +105,41 @@ class FrameManager(object):
             for frame in frames:
                 items = frame.get_items_by_name(category)
                 if category_id == 0:
-                    category_id = 0
+                    for item in items:
+                        category_id = item.get_id()
+                        break
                 count, start_x, start_y, end_x, end_y = self.__handle_item(items, start_x, start_y, end_x, end_y)
                 if count == 1:
                     take_count += 1
 
-            if start_x > self.__width/2:
-                print category, " was not taked from inside!"
-            else:
-                if end_x > start_x:
-                    if  end_x - start_x > self.__width/4:
-                        print category, " has been taked!"
-                        take_count += 1
-                    else:
-                        print category, " taked but put back!"
-                else :
+            # if start_x > self.__width/2:
+            #     print category, " was not taked from inside!"
+            # else:
+            #     if end_x > start_x:
+            #         if  end_x - start_x > self.__width/4:
+            #             print category, " has been taked!"
+            #             take_count += 1
+            #         else:
+            #             print category, " taked but put back!"
+            #     else :
+            #         print category, " taked but put back!"
+
+            if end_x > start_x:
+                if  end_x - start_x > self.__width/4:
+                    print category, " has been taked!"
+                    take_count += 1
+                else:
                     print category, " taked but put back!"
-            if take_count > 0:
-                print take_count, " ", category, " has been taked!"
-                # add detect item
-                detect_item = DetectItem(category_id, category, take_count)
-                self.__add_detect_item(detect_item)
+            else :
+                # if take_count > 1:
+                #     take_count = take_count - 1
+                print category, " taked but put back!"
+
+            # if take_count > 0:
+            print "category: ", category, " has been detected!. and has been taked: ", take_count
+            # add detect item
+            detect_item = DetectItem(category_id, category, take_count)
+            self.__add_detect_item(detect_item)
 
     def __handle_item(self, items, start_x, start_y, end_x, end_y):
         count = 0
@@ -141,7 +154,7 @@ class FrameManager(object):
                 start_y = y_mid
             else:
                 # taked an other one
-                if (x_mid < end_x) & (end_x - x_mid > self.__width / 3):
+                if (x_mid < end_x) & (end_x - x_mid > self.__width / 4):
                     print item.get_name(), "has been taked one"
                     start_x = x_mid
                     start_y = y_mid

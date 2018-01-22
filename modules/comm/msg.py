@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import json
+import time
 from modules.comm.msg_code_define import *
 from managers.comm_manager import CommManager
 from managers.config_manager import ConfigManager
@@ -50,7 +51,8 @@ class RegisterResponse(Msg):
         self._code = MsgCodeEnum.MSG_REGISTER_RSP
 
     def execute(self):
-        if self._body.get('status') in ('false', False):
+        if self._body.get('Status') in ('0', False):
+            time.sleep(1)
             add_msg(MsgCodeEnum.MSG_REGISTER_REQ)
 
 class StartDetectRequest(Msg):
@@ -73,7 +75,7 @@ class StartDetectResponse(Msg):
     def set_body(self, body):
         self._body = body
         self._body['ID'] = str(self._code)
-        self._body['status'] = 'true'
+        self._body['Status'] = '1'
 
 class StopDetectRequest(Msg):
     def __init__(self):
@@ -92,7 +94,7 @@ class StopDetectResponse(Msg):
     def set_body(self, body):
         self._body = body
         self._body['ID'] = str(self._code)
-        self._body['status'] = 'true'
+        self._body['Status'] = '1'
 
 class ReportResultRequest(Msg):
     def __init__(self):
@@ -117,26 +119,11 @@ class ReportResultRequest(Msg):
             id = item.get_id()
             name = item.get_name()
             count = item.get_count()
-
-            # guibi
-            if name == "cocacola":
-                id = "1"
-            if name == "xuebi":
-                id = "4"
-            if name == "weiquan":
-                id = "3"
-            if name == "redtea":
-                id = "5"
-            if name == "tongyi":
-                id = "6"
-
             print "id: ", id, "name: ", name, "count: ", count
             value = "{\"Id\": " + "\"" + str(id) + "\"" + "," + "\"Name\": " + "\"" + name + "\"" + "," + "\"Number\":" + "\"" + str(count) + "\"" + "}"
             #value = "{Name: " + "\"" + item.get_name() + "\"" + "," + "\"Number\":" + str(item.get_count()) + "}"
-            print "value: ", value
             products += value
             #products.join(value)
-            print "products: ", products
             #products.join(",")
             products += ","
         products1 = products[0:len(products)-1]

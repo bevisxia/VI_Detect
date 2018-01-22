@@ -80,6 +80,8 @@ FLAGS = flags.FLAGS
 
 
 def main(unused_argv):
+  #gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.5)
+  #sess = tf.Session(config=tf.ConfigProto(gpu_options=gpu_options))
   assert FLAGS.checkpoint_dir, '`checkpoint_dir` is missing.'
   assert FLAGS.eval_dir, '`eval_dir` is missing.'
   tf.gfile.MakeDirs(FLAGS.eval_dir)
